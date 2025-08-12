@@ -25,14 +25,13 @@ tu-proyecto/
 ### 2. Archivos Requeridos
 Sube exactamente estos archivos .txt (con los nombres exactos):
 
-- ✅ `BIOTECNOLOGIA  N°03.txt`
-- ✅ `CAMPOS  DE APLICACIÓN  DEL MÉTODO CIENTÍFICO.txt`
-- ✅ `EL CONOCIMIENTO CIENTIFICO Y EMPIRICO N°04.txt`
-- ✅ `EL MÉTODO CIENTÍFICO- LA PENICILINA.txt`
-- ✅ `LA CIENCIA MÓDULO  N° 01.txt`
-- ✅ `MATERIALES DE LABORATORIO PRIMER AÑO.txt`
-- ✅ `METODO CIENTIFICO   1°.txt`
-- ✅ `PERSONAJES DE CIENCIA   N°02.txt`
+- ✅ `IDEA PRINCIPAL Y SECUNDARIA.txt`
+- ✅ `IDENTIFICACION DE TEMAS Y SUBTEMAS.txt`
+- ✅ `IDENTIFICAMOS LOS ELEMENTOS Y TIPOS DE COMUNICACIÓN.txt`
+- ✅ `LA COMUNICACION-ELEMENTOS Y TIPOS.txt`
+- ✅ `LECTURA.txt`
+- ✅ `MEJORANDO LA ORTOGRAFIA.txt`
+- ✅ `REDACCION DE ANECDOTAS.txt`
 
 ### 3. 💡 Optimización de Tokens
 - Los archivos .txt **NO se envían** a la IA para ahorrar tokens

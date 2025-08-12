@@ -1,0 +1,26 @@
+La comunicacion es un proceso en el que se produce una conexion entre un emisor y un receptor.
+La comunicacion sirve para transmitir y recibir informacion. Gracias a su existencia somos capaces de expresar nuestros sentimientos y deseos a los demas.
+Los principales elementos de la comunicacion son: el emisor, el receptor, el mensaje, el codigo y el canal.
+
+Elementos de la comunicacion:
+Codigo
+Mensaje
+Emisor
+Receptor
+Canal
+Referente
+Tipos de comunicacion:
+-Linguistica
+-No linguistica
+
+Segun el receptor:
+-Es publica
+-Es privada
+
+Por el mensaje:
+-Unidireccional
+-Bidireccional
+
+Por el canal y contexto:
+-Indirecta
+-Directa

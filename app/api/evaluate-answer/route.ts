@@ -10,9 +10,9 @@ export async function POST(request: NextRequest) {
   try {
     const { topic, question, answer } = await request.json()
 
-    const prompt = `Eres un profesor experto en Ciencia, Tecnología y Ambiente (CTA) de educación secundaria.
+    const prompt = `Eres un profesor experto en Comunicaciones en educación secundaria.
 
-Evalúa la siguiente respuesta de un estudiante basándote en los conocimientos estándar del currículo de CTA:
+Evalúa la siguiente respuesta de un estudiante basándote en los conocimientos estándar del currículo de Comunicaion:
 
 TEMA: ${topic}
 PREGUNTA: ${question}

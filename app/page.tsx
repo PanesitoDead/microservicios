@@ -11,14 +11,13 @@ import AnswerEvaluator from '@/components/answer-evaluator'
 import MaterialUploader from '@/components/material-uploader'
 
 const topics = [
-  'La Ciencia',
-  'Método Científico',
-  'Campos de Aplicación del Método Científico',
-  'Personajes de Ciencia',
-  'Biotecnología',
-  'El Conocimiento Científico y Empírico',
-  'Materiales de Laboratorio',
-  'El Método Científico - La Penicilina'
+  'LA COMUNICACION-ELEMENTOS Y TIPOS',
+  'MEJORANDO LA ORTOGRAFIA',
+  'IDEA PRINCIPAL Y SECUNDARIA',
+  'IDENTIFICAMOS LOS ELEMENTOS Y TIPOS DE COMUNICACIÓN',
+  'LECTURA',
+  'REDACCION DE ANECDOTAS',
+  'IDENTIFICACION DE TEMAS Y SUBTEMAS',
 ]
 
 export default function Dashboard() {
@@ -28,7 +27,7 @@ export default function Dashboard() {
     {
       id: 'quiz',
       title: 'Generación de Cuestionarios',
-      description: 'Crea cuestionarios automáticos sobre temas de CTA',
+      description: 'Crea cuestionarios automáticos sobre temas de Comunicacion',
       icon: FileText,
       component: QuizGenerator
     },
@@ -42,14 +41,14 @@ export default function Dashboard() {
     {
       id: 'evaluation',
       title: 'Retroalimentación de Respuestas',
-      description: 'Evalúa y proporciona comentarios sobre respuestas abiertas',
+      description: 'Evalúa comentarios y respuestas de los estudiantes',
       icon: MessageSquare,
       component: AnswerEvaluator
     },
     {
       id: 'upload',
-      title: 'Gestión de Material',
-      description: 'Carga y organiza el material del curso CTA',
+      title: 'Administración de Materiales',
+      description: 'Material del curso Comunicacion',
       icon: Upload,
       component: MaterialUploader
     }
@@ -63,14 +62,12 @@ export default function Dashboard() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Microservicio IA - Chamilo CTA
+            Plataforma Virtual - Comunicacion
           </h1>
           <p className="text-lg text-gray-600 mb-4">
-            Asistente inteligente para el curso de Ciencia, Tecnología y Ambiente
+            Asistente inteligente para el curso Comunicacion
           </p>
-          <Badge variant="secondary" className="text-sm">
-            Powered by Mistral 7B via OpenRouter
-          </Badge>
+         
         </div>
 
         {activeSection ? (
@@ -116,8 +113,8 @@ export default function Dashboard() {
 
         {/* Footer */}
         <div className="mt-12 text-center text-sm text-gray-500">
-          <p>Integración con Chamilo LMS - Curso CTA</p>
-          <p>Desarrollado para optimizar el aprendizaje con IA</p>
+          <p>Integración con Chamilo LMS - Curso Ccomunicacion</p>
+          <p>Implementado para mejorar el aprendizaje con IA</p>
         </div>
       </div>
     </div>

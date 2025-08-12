@@ -23,14 +23,13 @@ export default function SummaryGenerator() {
   const [error, setError] = useState('')
 
   const topics = [
-    'La Ciencia',
-    'Método Científico',
-    'Campos de Aplicación del Método Científico',
-    'Personajes de Ciencia',
-    'Biotecnología',
-    'El Conocimiento Científico y Empírico',
-    'Materiales de Laboratorio',
-    'El Método Científico - La Penicilina'
+    'LA COMUNICACION-ELEMENTOS Y TIPOS',
+    'MEJORANDO LA ORTOGRAFIA',
+    'IDEA PRINCIPAL Y SECUNDARIA',
+    'IDENTIFICAMOS LOS ELEMENTOS Y TIPOS DE COMUNICACIÓN',
+    'LECTURA',
+    'REDACCION DE ANECDOTAS',
+    'IDENTIFICACION DE TEMAS Y SUBTEMAS',
   ]
 
   const handleGenerateSummary = async () => {
@@ -93,7 +92,7 @@ export default function SummaryGenerator() {
             Generador de Resúmenes
           </CardTitle>
           <CardDescription>
-            Genera resúmenes estructurados y claros de los temas del curso CTA
+            Genera resúmenes estructurados y claros de los temas del curso de Comunicacion
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">

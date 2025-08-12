@@ -51,22 +51,21 @@ export default function MaterialUploader() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-blue-800">
             <FolderOpen className="w-5 h-5" />
-            📁 Instrucciones para Cargar Material CTA
+            📁 Como cargar material de Comunicacion
           </CardTitle>
         </CardHeader>
         <CardContent className="text-blue-700">
           <div className="space-y-3">
-            <p><strong>Carpeta de materiales:</strong> <code className="bg-blue-100 px-2 py-1 rounded">data/cta-materials/</code></p>
+            <p><strong>Carpeta de materiales:</strong> <code className="bg-blue-100 px-2 py-1 rounded">data/comunicacion-materials/</code></p>
             <p>Sube tus archivos .txt a esta carpeta en la raíz del proyecto:</p>
             <ul className="list-disc list-inside space-y-1 text-sm">
-              <li>BIOTECNOLOGIA  N°03.txt</li>
-              <li>CAMPOS  DE APLICACIÓN  DEL MÉTODO CIENTÍFICO.txt</li>
-              <li>EL CONOCIMIENTO CIENTIFICO Y EMPIRICO N°04.txt</li>
-              <li>EL MÉTODO CIENTÍFICO- LA PENICILINA.txt</li>
-              <li>LA CIENCIA MÓDULO  N° 01.txt</li>
-              <li>MATERIALES DE LABORATORIO PRIMER AÑO.txt</li>
-              <li>METODO CIENTIFICO   1°.txt</li>
-              <li>PERSONAJES DE CIENCIA   N°02.txt</li>
+              <li>LA COMUNICACION-ELEMENTOS Y TIPOS.txt</li>
+              <li>MEJORANDO LA ORTOGRAFIA.txt</li>
+              <li>IDEA PRINCIPAL Y SECUNDARIA.txt</li>
+              <li>IDENTIFICAMOS LOS ELEMENTOS Y TIPOS DE COMUNICACIÓN.txt</li>
+              <li>LECTURA.txt</li>
+              <li>REDACCION DE ANECDOTAS.txt</li>
+              <li>IDENTIFICACION DE TEMAS Y SUBTEMAS.txt</li>
             </ul>
             <div className="mt-4 p-3 bg-green-100 border border-green-300 rounded">
               <p className="text-green-800 text-sm">
@@ -82,7 +81,7 @@ export default function MaterialUploader() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Upload className="w-5 h-5" />
-            Material del Curso CTA ({materials.length} archivos detectados)
+            Material del Curso de Comunicacion ({materials.length} archivos detectados)
           </CardTitle>
           <CardDescription>
             Archivos disponibles para generar temas de cuestionarios, resúmenes y evaluaciones
@@ -148,7 +147,7 @@ export default function MaterialUploader() {
                   <p className="text-sm text-gray-600 mb-2">
                     {material.hasContent 
                       ? `✅ Archivo cargado - Tema disponible para IA: "${material.topic}"`
-                      : `⚠️ Archivo no encontrado en data/cta-materials/`
+                      : `⚠️ Archivo no encontrado en data/Comunicacion-materials/`
                     }
                   </p>
                   

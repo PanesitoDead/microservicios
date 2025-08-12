@@ -26,37 +26,37 @@ export default function AnswerEvaluator() {
   const [error, setError] = useState('')
 
   const topics = [
-    'La Ciencia',
-    'Método Científico',
-    'Campos de Aplicación del Método Científico',
-    'Personajes de Ciencia',
-    'Biotecnología',
-    'El Conocimiento Científico y Empírico',
-    'Materiales de Laboratorio',
-    'El Método Científico - La Penicilina'
+    'LA COMUNICACION-ELEMENTOS Y TIPOS',
+    'MEJORANDO LA ORTOGRAFIA',
+    'IDEA PRINCIPAL Y SECUNDARIA',
+    'IDENTIFICAMOS LOS ELEMENTOS Y TIPOS DE COMUNICACIÓN',
+    'LECTURA',
+    'REDACCION DE ANECDOTAS',
+    'IDENTIFICACION DE TEMAS Y SUBTEMAS',
   ]
 
   const sampleQuestions = {
-    'La Ciencia': [
-      '¿Qué es la ciencia y cuáles son sus características principales?',
-      'Explica la diferencia entre ciencia pura y ciencia aplicada.',
-      '¿Cuál es la importancia de la ciencia en el desarrollo de la sociedad?'
-    ],
-    'Método Científico': [
-      '¿Cuáles son los pasos del método científico y por qué es importante seguirlos?',
-      'Explica la diferencia entre hipótesis y teoría científica.',
-      '¿Cómo se puede garantizar la objetividad en una investigación científica?'
-    ],
-    'Biotecnología': [
-      '¿Qué es la biotecnología y cuáles son sus principales aplicaciones?',
-      'Explica los beneficios y riesgos de la biotecnología moderna.',
-      '¿Cómo contribuye la biotecnología al desarrollo sostenible?'
-    ],
-    'Materiales de Laboratorio': [
-      '¿Cuáles son los materiales básicos de un laboratorio de ciencias?',
-      'Explica las medidas de seguridad que se deben seguir en el laboratorio.',
-      '¿Cómo se debe manipular correctamente el material de vidrio?'
-    ]
+    'Elementos y Tipos de Comunicación': [
+  '¿Cuáles son los elementos básicos del proceso de comunicación y qué función cumple cada uno?',
+  'Explica la diferencia entre comunicación verbal y no verbal, con ejemplos.',
+  '¿Qué tipos de comunicación existen según el canal y la intención del mensaje?'
+],
+'Idea Principal e Idea Secundaria': [
+  '¿Cómo se puede identificar la idea principal de un texto?',
+  'Explica la diferencia entre idea principal e ideas secundarias.',
+  '¿Por qué es importante reconocer las ideas secundarias para comprender mejor un texto?'
+],
+'Redacción de Anécdotas': [
+  '¿Cuáles son las características de una anécdota bien redactada?',
+  'Explica cómo se estructura una anécdota para que sea clara y entretenida.',
+  '¿Qué recursos narrativos se pueden usar para hacer más interesante una anécdota?'
+],
+'Identificación de Temas y Subtemas': [
+  '¿Cómo se identifica el tema principal de un texto?',
+  'Explica la relación entre un tema y sus subtemas.',
+  '¿Por qué es importante distinguir entre tema y subtema en la comprensión lectora?'
+]
+
   }
 
   const handleEvaluateAnswer = async () => {

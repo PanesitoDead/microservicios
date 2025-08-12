@@ -16,9 +16,9 @@ export async function POST(request: NextRequest) {
       long: '5 o más párrafos extensos y completos'
     }
 
-    const prompt = `Eres un experto profesor de Ciencia, Tecnología y Ambiente (CTA) de educación secundaria.
+    const prompt = `Eres un experto profesor de Comunicacion de educación secundaria.
 
-Genera un resumen estructurado sobre "${topic}" basándote en el currículo estándar de CTA para educación secundaria.
+Genera un resumen estructurado sobre "${topic}" basándote en el currículo estándar de Comunicacion para educación secundaria.
 
 Especificaciones del resumen:
 - Extensión: ${lengthInstructions[length as keyof typeof lengthInstructions]}

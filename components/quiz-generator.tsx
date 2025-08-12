@@ -31,14 +31,13 @@ export default function QuizGenerator() {
   const [error, setError] = useState('')
 
   const topics = [
-    'La Ciencia',
-    'Método Científico',
-    'Campos de Aplicación del Método Científico',
-    'Personajes de Ciencia',
-    'Biotecnología',
-    'El Conocimiento Científico y Empírico',
-    'Materiales de Laboratorio',
-    'El Método Científico - La Penicilina'
+    'LA COMUNICACION-ELEMENTOS Y TIPOS',
+    'MEJORANDO LA ORTOGRAFIA',
+    'IDEA PRINCIPAL Y SECUNDARIA',
+    'IDENTIFICAMOS LOS ELEMENTOS Y TIPOS DE COMUNICACIÓN',
+    'LECTURA',
+    'REDACCION DE ANECDOTAS',
+    'IDENTIFICACION DE TEMAS Y SUBTEMAS',
   ]
 
   const handleGenerateQuiz = async () => {
@@ -117,7 +116,7 @@ export default function QuizGenerator() {
             Generador de Cuestionarios
           </CardTitle>
           <CardDescription>
-            Genera cuestionarios automáticos basados en el material del curso CTA
+            Genera cuestionarios automáticos basados en los materiales del curso de Comunicacion
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
