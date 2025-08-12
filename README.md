@@ -1,4 +1,4 @@
-# Microservicio IA - Chamilo CTA
+# Microservicio I - Chamilo CTA
 
 Microservicio web que se integra con Chamilo LMS para el curso de Ciencia, Tecnología y Ambiente (CTA), potenciado por IA usando OpenRouter API.
 
